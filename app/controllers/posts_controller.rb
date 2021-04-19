@@ -17,6 +17,7 @@ class PostsController < ApplicationController
       post.update(checked: true)
     end
 
+    # 更新したメモをitemへ
     item = Post.find(params[:id])
     render json: { post: item }
   end

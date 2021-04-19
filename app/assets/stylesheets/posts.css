@@ -7,3 +7,8 @@
 .post-date{
   color: gray;
 }
+
+/* div要素のdata-check属性がtrueの時に */
+div[data-check="true"] {
+  background: #585555;
+}
